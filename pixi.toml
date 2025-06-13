@@ -1,5 +1,5 @@
 [workspace]
-authors = ["dayat <hrahmat950@gmail.com>"]
+authors = ["dayat <hrahmat95g@gmail.com>"]
 channels = ["conda-forge"]
 name = "Eksperimen-MSML-RahmatHidayat"
 platforms = ["win-64", "linux-64"]
