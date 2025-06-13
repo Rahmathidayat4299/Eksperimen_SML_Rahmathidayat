@@ -27,7 +27,7 @@ jobs:
       - name: Run preprocessing script
         run: pixi run python ${{ env.PREPROCESS_SCRIPT }}
         env:
-          PREPROCESS_SCRIPT: automate_rahmathidayat.py
+          PREPROCESS_SCRIPT: preprocessing/automate_rahmathidayat.py
 
       - name: Commit and push processed data
         env:
