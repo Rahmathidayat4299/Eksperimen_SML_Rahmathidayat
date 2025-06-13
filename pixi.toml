@@ -1,0 +1,18 @@
+[workspace]
+authors = ["dayat <hrahmat950@gmail.com>"]
+channels = ["conda-forge"]
+name = "Eksperimen-MSML-RahmatHidayat"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.12.7"
+jupyter = ">=1.1.1,<2"
+matplotlib = ">=3.10.3,<4"
+pandas = ">=2.3.0,<3"
+seaborn = ">=0.13.2,<0.14"
+feature_engine = ">=1.8.3,<2"
+imbalanced-learn = ">=0.13.0,<0.14"
+scikit-learn = ">=1.6.1,<2"
